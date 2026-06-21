@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Microservices Architecture",
+    "description": "Designed and deployed a scalable microservices system with Spring Boot, Docker, and service discovery for high-availability workloads.",
+    "longDescription": "A production-grade microservices platform handling distributed transactions, inter-service communication via REST and message queues, and centralized logging. Built with domain-driven design principles and deployed on containerized infrastructure.",
+    "link": "https://github.com/soumikpradhan/microservices-project",
+    "tags": ["Java", "Spring Boot", "Docker"],
+    "icon": "🏗️",
+    "highlights": [
+      "Decomposed monolith into 6 independent services",
+      "Implemented circuit breaker and retry patterns",
+      "Reduced deployment time by 40% with Docker Compose"
+    ]
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "Built a modern single-page portfolio with Next.js, Tailwind CSS, Framer Motion animations, and a dark/light mode toggle.",
+    "longDescription": "A fully responsive developer portfolio featuring scroll animations, project modals, a searchable knowledge base, and an async contact form. Optimized for performance with static generation and semantic HTML.",
+    "link": "https://github.com/soumikpradhan/my-portfolio",
+    "tags": ["Next.js", "React", "Tailwind"],
+    "icon": "💼",
+    "highlights": [
+      "Dark/light mode with system preference detection",
+      "Scroll-spy navigation and Framer Motion animations",
+      "Modular component architecture for easy content updates"
+    ]
+  },
+  {
+    "title": "Java Interview Prep Hub",
+    "description": "Created a knowledge hub with curated Java interview notes covering JVM internals, OOP, microservices, and coding patterns.",
+    "longDescription": "A structured collection of interview preparation notes organized by topic — from JVM internals and garbage collection to design patterns and microservices architecture. Integrated directly into this portfolio as a searchable resources section.",
+    "link": "https://github.com/soumikpradhan/java-prep",
+    "tags": ["Java", "Markdown", "Education"],
+    "icon": "📚",
+    "highlights": [
+      "Covers JVM, OOP, microservices, and coding patterns",
+      "Searchable accordion UI with markdown rendering",
+      "Continuously updated from real interview experience"
+    ]
+  }
+]
