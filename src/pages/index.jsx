@@ -1,5 +1,3 @@
-import fs from "fs";
-import path from "path";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
@@ -11,7 +9,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
 
-export default function Home({ notesMarkdown }) {
+export default function Home() {
   return (
     <>
       <Navbar />
@@ -21,20 +19,11 @@ export default function Home({ notesMarkdown }) {
         <Skills />
         <Portfolio />
         <Experience />
-        <Resources markdown={notesMarkdown} />
+        <Resources />
         <Contact />
       </main>
       <Footer />
       <ScrollToTop />
     </>
   );
-}
-
-export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "src/data/interview-notes.md");
-  const notesMarkdown = fs.readFileSync(filePath, "utf8");
-
-  return {
-    props: { notesMarkdown },
-  };
 }
