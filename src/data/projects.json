@@ -4,19 +4,19 @@
     "description": "Designed and deployed a scalable microservices system with Spring Boot, Docker, and service discovery for high-availability workloads.",
     "longDescription": "A production-grade microservices platform handling distributed transactions, inter-service communication via REST and message queues, and centralized logging. Built with domain-driven design principles and deployed on containerized infrastructure.",
     "link": "https://github.com/soumikpradhan/microservices-project",
-    "tags": ["Java", "Spring Boot", "Docker"],
+    "tags": ["Java", "Spring Boot", "Microservices"],
     "icon": "🏗️",
     "highlights": [
-      "Decomposed monolith into 6 independent services",
+      "Decomposed monolith into multiple independent services",
       "Implemented circuit breaker and retry patterns",
-      "Reduced deployment time by 40% with Docker Compose"
+      "Externalized configuration and CI/CD pipelines for automated deployments"
     ]
   },
   {
     "title": "Portfolio Website",
     "description": "Built a modern single-page portfolio with Next.js, Tailwind CSS, Framer Motion animations, and a dark/light mode toggle.",
     "longDescription": "A fully responsive developer portfolio featuring scroll animations, project modals, a searchable knowledge base, and an async contact form. Optimized for performance with static generation and semantic HTML.",
-    "link": "https://github.com/soumikpradhan/my-portfolio",
+    "link": "https://github.com/pradhansoumik/my-portfolio",
     "tags": ["Next.js", "React", "Tailwind"],
     "icon": "💼",
     "highlights": [
@@ -27,14 +27,13 @@
   },
   {
     "title": "Java Interview Prep Hub",
-    "description": "Created a knowledge hub with curated Java interview notes covering JVM internals, OOP, microservices, and coding patterns.",
-    "longDescription": "A structured collection of interview preparation notes organized by topic — from JVM internals and garbage collection to design patterns and microservices architecture. Integrated directly into this portfolio as a searchable resources section.",
+    "description": "Created a knowledge hub with curated Java interview guide covering Core Java, DSA, System Design - HLD & LLD, Spring Boot, microservices, Rest API, Database, CI/CD, AI.",
+    "longDescription": "A structured collection of interview preparation guide/path organized by topic — from Core Java to System Design and Microservices Architecture. Integrated directly into this portfolio as a searchable resources section.",
     "link": "https://github.com/soumikpradhan/java-prep",
-    "tags": ["Java", "Markdown", "Education"],
+    "tags": ["Java", "Interview Preparation", "Education"],
     "icon": "📚",
     "highlights": [
-      "Covers JVM, OOP, microservices, and coding patterns",
-      "Searchable accordion UI with markdown rendering",
+      "Covers Java, DSA, System Design - HLD & LLD, Spring Boot, Rest API, Microservices, Database, CI/CD, AI",
       "Continuously updated from real interview experience"
     ]
   }

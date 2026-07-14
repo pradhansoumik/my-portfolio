@@ -29,11 +29,11 @@ export default function About() {
           <p>
             I&apos;m a software developer with a strong focus on backend
             engineering and scalable system design. Currently working as a Senior
-            Java Developer at Amdocs, Experience in Development, Enhancement & Maintenance of Web-based application using Core Java and
-            Spring Framework & Microservices
+            Java Developer at Amdocs, Experience in Development, Enhancement & Maintenance of Web-based application using Core Java,
+            Spring Framework & Microservices, Database, CI/CD and AI
           </p>
           <p>
-            My expertise spans Java, Spring Boot, microservices architecture,
+            My primary expertise spans Java, Spring Boot, microservices architecture,
             and modern frontend tooling with React and Next.js. I enjoy turning
             complex problems into clean, maintainable solutions — and sharing
             what I learn along the way.
