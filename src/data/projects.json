@@ -29,7 +29,7 @@
     "title": "Java Interview Prep Hub",
     "description": "Created a knowledge hub with curated Java interview guide covering Core Java, DSA, System Design - HLD & LLD, Spring Boot, microservices, Rest API, Database, CI/CD, AI.",
     "longDescription": "A structured collection of interview preparation guide/path organized by topic — from Core Java to System Design and Microservices Architecture. Integrated directly into this portfolio as a searchable resources section.",
-    "link": "https://github.com/soumikpradhan/java-prep",
+    "link": "https://github.com/pradhansoumik/JAVA_INTERVIEW_PREP_HUB",
     "tags": ["Java", "Interview Preparation", "Education"],
     "icon": "📚",
     "highlights": [

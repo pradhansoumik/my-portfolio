@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { siteConfig } from "../data/site.config";
 import Typewriter from "./Typewriter";
+import ResumeDownload from "./ResumeDownload";
 
 export default function Hero() {
   return (
@@ -38,14 +39,9 @@ export default function Hero() {
         >
           Get In Touch
         </a>
-        <a
-          href={siteConfig.resumeUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-8 py-3 border-2 border-white/50 text-white font-semibold rounded-full hover:bg-white/10 transition-colors duration-300"
-        >
+        <ResumeDownload className="px-8 py-3 border-2 border-white/50 text-white font-semibold rounded-full hover:bg-white/10 transition-colors duration-300">
           Download Resume
-        </a>
+        </ResumeDownload>
       </div>
     </motion.section>
   );

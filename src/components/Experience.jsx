@@ -21,12 +21,30 @@ export default function Experience() {
                 <h3 className="text-xl font-semibold text-sunset mb-1">
                   {exp.role}
                 </h3>
-                <p className="text-sm italic mb-3 text-gray-500 dark:text-gray-400">
+                <p className="text-sm italic mb-4 text-gray-500 dark:text-gray-400">
                   {exp.company} &middot; {exp.period}
                 </p>
-                <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                  {exp.details}
-                </p>
+
+                {exp.highlights && (
+                  <ul className="list-disc list-outside ml-4 space-y-2 mb-4 text-gray-700 dark:text-gray-300 leading-relaxed text-sm">
+                    {exp.highlights.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                )}
+
+                {exp.techStack && (
+                  <div className="flex flex-wrap gap-2">
+                    {exp.techStack.map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-2.5 py-1 text-xs font-medium rounded-full bg-sunset/10 text-sunset dark:bg-sunset/20"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             </div>
           </FadeInSection>

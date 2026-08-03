@@ -1,5 +1,5 @@
 export const resourcesMeta = {
-  prepHubUrl: "https://github.com/soumikpradhan/java-prep",
+  prepHubUrl: "https://github.com/pradhansoumik/JAVA_INTERVIEW_PREP_HUB",
   prepHubLabel: "Java Interview Prep Hub",
   description:
     "High-level syllabus of interview topics. Detailed notes, code samples, and case studies live in the prep hub repo.",
@@ -249,7 +249,6 @@ export const resourceCategories = [
         subTopics: [
           "SQL (MySQL, Postgres, Oracle) & NoSQL (Key-value store, Document, Wide Column, Graph DB), GeoSpatial DB",
           "Choice of DB, Trade-Offs",
-          "Indexing strategies",
           "Data Partitioning",
           "Partitioning Methods → Horizontal/Sharding, Vertical, Directory based",
           "Partitioning Criteria → Key/Hash Based, List Based, Round-Robin, Composite/Hybrid",
@@ -321,9 +320,7 @@ export const resourceCategories = [
           "Structural Diagrams - Class Diagram, Object Diagram, Component Diagram, Deployment Diagram etc",
           "Behavioral Diagrams - Use case Diagram, Activity Diagram, Sequence Diagram etc",
           "Class UML Diagrams - Class representation, Visibility Markers, Attributes and Method System, Interfaces, etc",
-          "Association, Aggregation, Composition, Inheritance",
-          "Sequence diagrams — interactions over time",
-          "Use case diagrams — actors, use cases, system boundaries",
+          "Relationship Between Classes — Association (I have you), Aggregation (I have you, but you are not mine), Composition (You are mine & only mine), Inheritance, Realization, Dependency",
         ],
       },
       {
@@ -335,15 +332,27 @@ export const resourceCategories = [
         ],
       },
       {
+        title: "Miscellaneous",
+        subTopics: [
+          "Multithreading & Concurrency in LLD",
+          "Dependency Injection - Design Pattern → Constructor Injection, Setter Injection, Interface Injection",
+          "Exception Handling in LLD → Fail Fast, Fail Safe, Checked, Unchecked & Custom Exceptions",
+          "Error Handling/Building Resilient Systems → Resilience, Robust vs Brittle System, Graceful Degradation Strategies, Retry, Circuit Breaker, Failover and Timeout Strategies",
+        ],
+      },
+      {
         title: "Best Practices in LLD",
         subTopics: [
+          "All About API's → API Design, Versioning, and Security",
+          "Database Design and Integration",
+          "How to approach LLD Interview → 1. Requirement Clarifications, 2. Identify Core Entities, 3. Visualize Interaction flow, 4. Defines Class Structures & Relationships, 5. Implement Core Use Cases, 6. Apply OOP Principles & Design Patterns, 7. Handling Edge Cases, 8. Package Structure & Class Diagram, 9. Future Requirements(Good to Have)",
         ],
       },
       {
         title: "Common LLD Problems",
         subTopics: [
           "Parking lot system",
-          "Elevator system",
+          "Logging Framework",
           "Library management — books, members, lending",
           "Logging Framework",
           "LRU cache (class-level design)",
@@ -360,21 +369,23 @@ export const resourceCategories = [
       {
         title: "REST Fundamentals",
         subTopics: [
-          "REST principles & constraints",
-          "HTTP methods — GET, POST, PUT, PATCH, DELETE",
-          "HTTP status codes",
+          "Stateful vs stateless REST API",
+          "REST Principles → HATEOAS, Idempotency, Partial Update, Validation",
+          "API contract → Request/response modeling",
           "Idempotency & safe methods",
-          "Resource naming & URI design",
         ],
       },
       {
-        title: "API Design Principles",
+        title: "REST API Design Principles",
         subTopics: [
-          "Stateful vs stateless REST API",
-          "Request/response modeling",
-          "Versioning strategies",
+          "Resource naming & URI design → ✅ Good: GET /users/123, ❌ Bad: GET /getUserById?id=123",
+          "HTTP methods → GET, POST, PUT, PATCH, DELETE",
+          "HTTP status codes → 2xx, 3xx, 4xx, 5xx",
+          "Versioning strategies → /api/v1/users",
           "Pagination, filtering & sorting",
-          "Error response structure",
+          "Error handling/Error response structure → Return structured error objects with codes and messages",
+          "Security",
+          "Monitoring & Logging"
         ],
       },
       {
@@ -623,7 +634,9 @@ export const resourceCategories = [
       {
         title: "GenAI Fundamentals",
         subTopics: [
-          "LLM basics — prompts, tokens, context window",
+          "LLM basics — Tokenization, Vectorization, Attention, Self Supervised Learning",
+          "Transformer, Fine Tuning, Few-Shot Prompting, Context Engineering",
+          "RAG, MCP",
           "Use cases in software development",
           "How teams are leveraging AI today",
         ],

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { siteConfig } from "../data/site.config";
 import DarkModeToggle from "./DarkModeToggle";
+import ResumeDownload from "./ResumeDownload";
 
 const links = [
   { name: "Home", href: "#hero" },
@@ -67,14 +68,11 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <a
-            href={siteConfig.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <ResumeDownload
             className="px-3 py-1 text-sm border border-sunset text-sunset rounded-full hover:bg-sunset hover:text-white transition-colors"
           >
             Resume
-          </a>
+          </ResumeDownload>
           <DarkModeToggle />
         </div>
 
@@ -102,15 +100,12 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <a
-            href={siteConfig.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <ResumeDownload
             className="block text-sunset font-semibold"
             onClick={() => setIsOpen(false)}
           >
             Resume
-          </a>
+          </ResumeDownload>
         </div>
       )}
     </nav>

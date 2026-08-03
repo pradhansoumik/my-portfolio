@@ -1,4 +1,5 @@
 import { siteConfig } from "../data/site.config";
+import ResumeDownload from "./ResumeDownload";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -10,6 +11,9 @@ export default function Footer() {
           &copy; {year} {siteConfig.name}. All rights reserved.
         </p>
         <div className="flex gap-6">
+          <ResumeDownload className="text-sm hover:text-sunset-light transition-colors">
+            Resume
+          </ResumeDownload>
           <a
             href={siteConfig.github}
             target="_blank"
