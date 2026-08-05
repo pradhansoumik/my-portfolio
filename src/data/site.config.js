@@ -10,6 +10,8 @@ export const siteConfig = {
     "Backend Engineer",
     "Java with Agentic AI",
     "Full-Stack Developer",
+    "AI Software Engineer",
+    "AI Tech Lead",
   ],
   email: "soumikpradhan18@gmail.com",
   github: "https://github.com/pradhansoumik",
