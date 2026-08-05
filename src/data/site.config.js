@@ -16,8 +16,8 @@ export const siteConfig = {
   email: "soumikpradhan18@gmail.com",
   github: "https://github.com/pradhansoumik",
   linkedin: "https://www.linkedin.com/in/soumik-pradhan-7a7036126/",
-  resumeUrl: "/resume.pdf",
-  resumeDownloadName: "Soumik_Pradhan_Resume.pdf",
+  resumeUrl: "/Soumik_Pradhan_Java_Developer_8YOE.pdf",
+  resumeDownloadName: "Soumik_Pradhan_Java_Developer_8YOE.pdf",
   contactFormEnabled: false,
 };
 
